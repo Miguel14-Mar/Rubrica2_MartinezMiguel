@@ -63,9 +63,9 @@ export const Cabecera = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/melist">
+                    <NavLink className="dropdown-item" to="/melist">
                       Listar Marcas
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
@@ -79,9 +79,9 @@ export const Cabecera = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/menacer">
                   acerca de
-                </a>
+                </NavLink>
               </li>
             </ul>
             <form className="d-flex" role="search">
