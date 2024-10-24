@@ -13,7 +13,7 @@ export const Inicio = () => {
               tenemos algo para cada paso que des.
             </p>
             <button className="btn btn-outline-light" type="button">
-              Example button
+              comprar ahora
             </button>
           </div>
         </div>
