@@ -29,7 +29,7 @@ export const Cabecera = () => {
                 <NavLink
                   className="nav-link active"
                   aria-current="page"
-                  to="/mencre"
+                  to="//mencre"
                 >
                   Inicio
                 </NavLink>
@@ -41,9 +41,9 @@ export const Cabecera = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/*">
                   Mujeres
-                </a>
+                </NavLink>
               </li>              
 
               <li className="nav-item dropdown">
@@ -63,7 +63,7 @@ export const Cabecera = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/melist">
                       Listar Marcas
                     </a>
                   </li>
@@ -71,7 +71,7 @@ export const Cabecera = () => {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="">
+                    <NavLink className="dropdown-item" to="/menadmin">
                       Administrar Marcas
                     </NavLink>
                   </li>
